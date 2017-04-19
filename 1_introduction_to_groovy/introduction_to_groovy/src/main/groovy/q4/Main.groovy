@@ -1,7 +1,6 @@
 package q4
 
 import com.groovy.basics.q1.Gender
-import q2.Employee
 
 /**
  * Created by gaurav on 18/4/17.
