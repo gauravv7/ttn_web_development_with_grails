@@ -5,7 +5,7 @@ package com.groovy.collections.q16
  */
 class Q16 {
     public static void main(String[] args) {
-        Map<String, Integer> m = new TreeMap<>();
+        Map m = [:]
         (1..10).each{ m.put("frnd${it}", it+10) }
         println m
     }
