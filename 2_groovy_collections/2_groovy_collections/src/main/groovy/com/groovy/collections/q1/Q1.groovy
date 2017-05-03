@@ -5,7 +5,7 @@ package com.groovy.collections.q1
  */
 class Q1 {
     public static void main(String[] args) {
-        List l = new ArrayList<>();
+        def l = [];
         l[11] = "myElement"
         println "l[11]=${l[11]}"
         println "l.get(5)=${l.get(5)}"
