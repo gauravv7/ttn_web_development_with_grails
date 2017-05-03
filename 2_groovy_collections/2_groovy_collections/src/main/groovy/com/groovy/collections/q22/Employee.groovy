@@ -1,34 +1,29 @@
 package com.groovy.collections.q22
 
-import groovy.transform.ToString
-
-/**
- * Created by gaurav on 19/4/17.
- */
 class Employee {
-    int EmployeeNumber
-    String Name
-    int Age
-    String DepartmentName
-    Double Salary
+    int employeeNumber
+    String name
+    int age
+    String departmentName
+    Double salary
 
     Employee(int employeeNumber, String name, int age, String departmentName, Double salary) {
-        EmployeeNumber = employeeNumber
-        Name = name
-        Age = age
-        DepartmentName = departmentName
-        Salary = salary
+        this.employeeNumber = employeeNumber
+        this.name = name
+        this.age = age
+        this.departmentName = departmentName
+        this.salary = salary
     }
 
 
     @Override
-    public String toString() {
+    String toString() {
         return "Employee{" +
-                "EmployeeNumber=" + EmployeeNumber +
-                ", Name='" + Name + '\'' +
-                ", Age=" + Age +
-                ", DepartmentName='" + DepartmentName + '\'' +
-                ", Salary=" + Salary +
+                "employeeNumber=" + employeeNumber +
+                ", name='" + name + '\'' +
+                ", Age=" + age +
+                ", departmentName='" + departmentName + '\'' +
+                ", Salary=" + salary +
                 '}';
     }
 }
